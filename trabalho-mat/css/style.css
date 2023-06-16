@@ -1,0 +1,56 @@
+body { background-color: rgb(0, 65, 87);
+text-align: center
+;
+margin-top: 10%;
+}
+
+#inicio { color: #41a1be; 
+          text-align: center; }
+
+
+.quebrar { display: inline-block;
+           margin: 10px;
+           vertical-align: middle; }
+
+.intro { color: #41a1be;
+         font-size: 20px;
+         font-family: 'Yanone Kaffeesatz', sans-serif; 
+        text-align: justify }
+
+h3{color: white;}
+
+
+
+.botao { display: inline-block;
+         padding: 15px 25px;
+         font-size: 24px;
+         cursor: pointer;
+         text-align: center;	
+         text-decoration: none;
+         outline: none;
+         color: #fff;
+         background-color: #41a1be;
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px rgb(121, 118, 118); }
+
+
+#result { color: rgb(255, 255, 255);
+          size: 40px;}
+
+
+table { font-size: 50px; }
+
+td{
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  #class-botton{
+    text-align: center;
+    margin-top: 10%;
+  }

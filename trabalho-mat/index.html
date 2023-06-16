@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf8">
+    <title> Trabalho de matemática - Matrizes - EDUARDO/PEDRO/EDSON/LUÍS/RAFAEL </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+
+    <h1 id="inicio"> Desenvolvimento Web e Matemática </h1>
+    <h3> Nomes dos estudantes: Eduardo de Oliveira - Pedro Henrique - Edson Estevan - Rafael Bittencourt - Luís Carlos</h3>
+    <h3> Professor: Adriano</h3>
+    <hr/>
+
+    <p class= "intro"> Esse site vai lhe permitir multiplicar duas matrizes 3x3 entre elas. No programa usado para construir
+        o site o que seria linha 1 e coluna um vai ser definido como linha 0 e coluna 0, o que seria linha 2 e
+        coluna 2 vai ser definido como linha 1 e coluna 1, assim em diante usando a mesma lógica para as seguintes
+        linhas e colunas. </p>
+
+    <p class= "intro"> O cálculo entre matrizes é feito multiplicando linha por coluna. </p> 
+
+    <hr/>
+
+    <p class= "intro"> Clique no botão a seguir para indicar os números e realizar o cálculo. </p>
+
+    <br>
+
+    <div id="class-botton">
+        <a href="matriz.html"><button class="botao"> Iniciar </button></a>
+        <button onclick="myFunction()">DARK MODE</button>
+    </div>
+
+    
+
+  
+    
+
+</body>
+
+<style>
+  
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+    button{
+    background-color: black;
+    color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+
+    
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+
+</html>
